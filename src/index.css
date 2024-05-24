@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: #0e0f1a;
+  color: #eee5ff;
+  position: absolute;
+}
+
+:root {
+  --gradient: -webkit-linear-gradient(0deg, #f87516 0%, #5e11ff 100%);
+  --gradient_opp: -webkit-linear-gradient(180deg, #f87516 0%, #5e11ff 100%);
+  --gradient_blue: -webkit-linear-gradient(275deg, #0d061f 0%, #251e35 100%);
+  --color_green: #7aa93c;
+  --text_white_high: #eee5ff;
+  --text_white_low: #eee5ffbd;
+}

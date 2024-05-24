@@ -1,0 +1,22 @@
+.btn_light {
+  background-color: white;
+  color: black;
+  pointer-events: all !important;
+}
+
+.btn_light:hover,
+.btn_light:focus {
+  background-color: transparent;
+  outline: 1px solid white;
+  color: white;
+}
+
+@media screen and (max-width: 1000px) {
+  .resp_cont {
+    margin-left: 0;
+  }
+
+  .resp_btn {
+    display: none;
+  }
+}

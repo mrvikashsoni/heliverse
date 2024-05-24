@@ -1,0 +1,21 @@
+.resp_col1 {
+  margin-bottom: 100px;
+  border-radius: 25px;
+  padding: 25px;
+  background: var(--gradient_blue);
+}
+.resp_col2 {
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 25px;
+  background: var(--gradient_blue);
+}
+
+@media screen and (max-width: 1000px) {
+  .resp_col1 {
+    margin-bottom: 0px;
+  }
+  .resp_col2 {
+    margin-top: 0px;
+  }
+}

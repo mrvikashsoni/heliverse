@@ -1,0 +1,25 @@
+.Link {
+  color: var(--text_white_low);
+  font-size: 12px;
+  pointer-events: all !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .resp_row {
+  }
+  .resp_col1 {
+    order: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .resp_col2 {
+    order: 1;
+  }
+  .resp_col3 {
+    order: 2;
+    display: flex;
+    justify-content: start;
+  }
+}

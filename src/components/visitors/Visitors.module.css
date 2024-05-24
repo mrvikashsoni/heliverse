@@ -1,0 +1,19 @@
+.Link {
+  background: var(--gradient_opp);
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+  pointer-events: all !important;
+}
+
+@media screen and (max-width: 1196px) {
+  .resp_cont {
+    margin: 0;
+    padding: 0 !important;
+  }
+
+  .resp_col1 {
+    padding: 0;
+    padding-bottom: 10%;
+  }
+}
